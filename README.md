@@ -1,5 +1,7 @@
 # AI Sentiment Analyzer
 
+**Live Demo:** https://palakrajput16-sentiment-analysis-app-app-mluyss.streamlit.app/
+
 A Streamlit app that classifies text as Positive or Negative using a
 pretrained DistilBERT model (`distilbert-base-uncased-finetuned-sst-2-english`),
 with confidence scoring, sentence-level breakdown, and CSV batch processing.
