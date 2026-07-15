@@ -34,14 +34,42 @@ what's still unverified.
 
 ## Running locally
 
+Clone the repository:
+
+```bash
+git clone <repository-url>
+cd sentiment-analysis-app
+```
+
+Create a virtual environment:
+
+### Windows
+
+```bash
+python -m venv venv
+venv\Scripts\activate
+```
+
+### macOS / Linux
+
+```bash
+python3 -m venv venv
+source venv/bin/activate
+```
+
+Install dependencies:
+
 ```bash
 pip install -r requirements.txt
+```
+
+Run the application:
+
+```bash
 streamlit run app.py
 ```
 
-Make sure the `.streamlit/config.toml` file sits in the same directory
-as `app.py` — it forces a light theme so the styling doesn't break
-under a visitor's dark mode setting.
+Make sure the `.streamlit/config.toml` file is present in the project directory so the application uses the intended light theme.
 
 ## Project structure
 
